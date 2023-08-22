@@ -1,5 +1,6 @@
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
 }
 
 .altura {
@@ -12,11 +13,11 @@ body {
 }
 
 .font-bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-item {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .menu-text {
@@ -32,5 +33,15 @@ i {
 
 .menu{
     position: relative;
-    bottom:2px
+    top:2px;
 }
+
+.container-image{
+    width: 30%;
+}
+
+
+.text-secondary{
+    font-weight: 400;
+}
+
