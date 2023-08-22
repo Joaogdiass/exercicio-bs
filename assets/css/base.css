@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+.altura {
+    height: 100px;
+}
+
+.custom-shadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Defina a altura desejada em pixels */
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.nav-item,
+.font-semi-bold {
+    font-weight: 500;
+}
+
+
+.bi-chat-text-fill {
+    position: relative;
+    bottom: 1px;
+}
+
+.menu {
+    position: relative;
+    top: 2px;
+}
+
+.container-image {
+    width: 30%;
+}
+
+
+.text-secondary {
+    font-weight: 400;
+}
+
+.article-container {
+    max-width: 800px;
+
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.icones i {
+    background: linear-gradient(to bottom, #2b51ce, #7e16f5);
+    -webkit-background-clip: text; /* Aplicar gradiente apenas ao texto */
+    background-clip: text; /* Aplicar gradiente apenas ao texto */
+    color: transparent; /* Tornar o texto transparente */
+}
