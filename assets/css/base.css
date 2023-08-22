@@ -1,6 +1,4 @@
-body {
-    font-family: sans-serif;
-}
+
 
 .altura {
     height: 100px;
@@ -15,9 +13,8 @@ body {
     font-weight: 600;
 }
 
-.nav-item,
-.font-semi-bold {
-    font-weight: 500;
+.nav-item {
+    font-weight: 600;
 }
 
 
@@ -59,4 +56,23 @@ body {
     -webkit-background-clip: text; /* Aplicar gradiente apenas ao texto */
     background-clip: text; /* Aplicar gradiente apenas ao texto */
     color: transparent; /* Tornar o texto transparente */
+}
+
+.font-semi-bold{
+    font-weight: 400;
+}
+
+.image-cel{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../img/pexels-cottonbro-studio-3585091.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.no-text-decoration a{
+    text-decoration: none;
+    color:gray
 }
